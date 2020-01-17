@@ -1,24 +1,43 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+10
+a - id: notice. Quando a tela é atualizada a mensagem some, porém a tag
 
-Things you may want to cover:
+que renderiza a mensagem continua no codigo fonte, e as informações do usuário cadastrado continua em tela.
+b - O usuário é cadastrado sem email.
 
-* Ruby version
+c - O usuário é cadastrado com o email inválido.
 
-* System dependencies
+d - Sim, aparece uma mensagem de confirmação perguntando se quero excluir o usuário e em seguida uma mensagem de sucesso.
 
-* Configuration
+12
+Index, show, new, edit, create, update, destroy, set-user, user-params.
 
-* Database creation
+14
+a - id: notice. Quando a tela é atualizada a mensagem some, porém a tag
 
-* Database initialization
+que renderiza a mensagem continua no codigo fonte e as informações do micropost cadastrado continua em tela.
+b - O micropost é criado, porém sem o content e o id do user.
 
-* How to run the test suite
+c - O micropost é criado normalmente.
 
-* Services (job queues, cache servers, search engines, etc.)
+d - Todos os micropost foram destruidos com sucesso.
 
-* Deployment instructions
+15 
+Index, show, new, edit, create, update, destroy, set-micropost, micropost-params.
 
-* ...
+17
+a - Uma mensagem de erro é exibida, informando que o content é muito grande (máximo de 140 caracteres).
+
+b - id: error_explanation
+
+21
+a - linha 1
+
+b - existe, chama-se application_record.rb
+
+22
+app não funciona normalmente, pois a migration não realizada no postgress
+
+23
+ERROR:  relation "users" does not exist
