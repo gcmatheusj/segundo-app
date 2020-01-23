@@ -39,7 +39,7 @@ a - linha 1
 b - existe, chama-se application_record.rb
 
 22
-app não funciona normalmente, pois a migration não realizada no postgress
+app não funciona normalmente, pois a migration não foi realizada no postgress
 
 23
 ERROR:  relation "users" does not exist
